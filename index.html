@@ -15,11 +15,11 @@
 
         <!----------nav-------->
 
-        <nav class="flex justify-between p-3 items-center px-32">
+        <nav class="flex flex-col md:flex-row justify-between p-3 items-center px-4 md:px-32">
                  <h1 class="text-2xl font-bold "> <span class="text-lime-600">Penguin</span> Fashion</h1>
 
               <div>
-                   <ul class="flex gap-6">
+                   <ul class="flex flex-col md:flex-row gap-6">
                       <li><a href="" class="text-lg font-medium">Home</a></li>
                       <li><a href="" class="text-lg font-medium">Product</a></li>
                       <li><a href="" class="text-lg font-medium">About Us</a></li>
@@ -29,15 +29,15 @@
         </nav>
 
         <!--------banner-------->
-         <div class="flex mt-5 px-32 items-center gap-24">
-                 <div class="">
+         <div class="flex flex-col md:flex-row mt-5 px-4 md:px-32 items-center gap-24">
+                 <div class="text-center md:text-left">
                     <h1 class="text-5xl font-semibold text-gray-700 uppercase leading-tight"> <span class="text-amber-400">Be the Penguins</span> <br>
                         of Winter</h1>
                         <p class="mt-4 text-lg text-gray-700 mb-4">
                             Lorem Ipsum is simply dummy text of the printing 
                              and typesetting industry.
                         </p>
-                        <button class="bg-lime-600 px-5 py-3 text-white text-base rounded-md uppercase"> <i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                        <button class="bg-gradient-to-r from-lime-300 to-lime-600 px-5 py-3 text-white text-base rounded-md uppercase"> <i class="fa-solid fa-cart-shopping"></i> Buy now</button>
 
                  </div>
  
@@ -46,8 +46,79 @@
          </div>
 
       </header>
+      <!----------------main section----------------->
+      <main class="max-w-7xl mx-auto">
+      <!-------------weman jecket------------->
+      <section class="py-12 px-32">
+          <h3 class="text-3xl font-medium">Weman Jecket</h3>
+      </section>
 
-      <main>
+      <!--------jacket container------>
+         <div class="grid grid-cols-3 gap-4 px-32">
+              <!----------jecket-1--------->
+              <div class=" space-y-3 shadow-lg rounded-3xl p-3">
+               <div class="bg-gray-300/30 p-5 rounded-2xl">
+                 <img src="images/jacket-1.png" >
+               </div>
+              
+              <h4 class="text-2xl text-gray-800 font-medium">Yellow Coat Jacket </h4>
+              <p class="text-lg text-gray-600">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis recusandae, ut non sint laudantium excepturi cumque! Quibusdam fuga neque eveniet.
+              </p>
+
+              <div class="flex justify-between items-center">
+                  <h3 class="text-4xl text-amber-400 font-bold">$234</h3>
+                  <button class="bg-gradient-to-r from-lime-300 to-lime-600 px-5 py-3 text-white text-base rounded-md uppercase"> <i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+
+              </div>
+              
+
+            </div>
+
+
+               <!----------jecket 2---------->
+               <div class=" space-y-3 shadow-lg rounded-3xl p-3">
+                  <div class="bg-gray-300/30 p-5 rounded-2xl">
+                    <img src="images/jacket-2.png" >
+                  </div>
+                 
+                 <h4 class="text-2xl text-gray-800 font-medium">Yellow Coat Jacket </h4>
+                 <p class="text-lg text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis recusandae, ut non sint laudantium excepturi cumque! Quibusdam fuga neque eveniet.
+                 </p>
+
+                 <div class="flex justify-between items-center">
+                     <h3 class="text-4xl text-amber-400 font-bold">$234</h3>
+                     <button class="bg-gradient-to-r from-lime-300 to-lime-600 px-5 py-3 text-white text-base rounded-md uppercase"> <i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+
+                 </div>
+                 
+
+               </div>
+
+
+               <!----------jecket-3-------->
+                
+               <div class=" space-y-3 shadow-lg rounded-3xl p-3">
+                  <div class="bg-gray-300/30 p-5 rounded-2xl">
+                    <img src="images/jacket-3.png" >
+                  </div>
+                 
+                 <h4 class="text-2xl text-gray-800 font-medium">Yellow Coat Jacket </h4>
+                 <p class="text-lg text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis recusandae, ut non sint laudantium excepturi cumque! Quibusdam fuga neque eveniet.
+                 </p>
+
+                 <div class="flex justify-between items-center">
+                     <h3 class="text-4xl text-amber-400 font-bold">$234</h3>
+                     <button class="bg-gradient-to-r from-lime-300 to-lime-600 px-5 py-3 text-white text-base rounded-md uppercase"> <i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+
+                 </div>
+                 
+
+               </div>
+
+         </div>
 
       </main>
 
